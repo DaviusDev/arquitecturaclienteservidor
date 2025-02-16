@@ -1,0 +1,50 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* Apply the font and color to the body */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  background-color: #f7f7f7;
+  margin: 3;
+  padding: 100;
+}
+
+/* Additional styling for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #387815;
+  text-align: center;
+}
+
+/* Styling for links */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  text-align: left;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.font {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  text-align: center;
+  display: block;
+}
